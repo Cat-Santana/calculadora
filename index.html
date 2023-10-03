@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style> @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500&display=swap');</style>
+</head>
+<body>
+    
+<main class="container">
+
+<section id="image">
+    <img src="./run.svg" alt="https://undraw.co/illustrations">
+</section>
+    
+<section id="calculadora">
+<form id="forms">
+<h1>Calculadora de IMC</h1>
+    <div class="input-flex-box">
+        <label for="peso">Peso (KG)</label>
+        <div class="input-kg">
+            <input type="number" id="peso" required>
+        </div>
+    </div>
+
+    <div class="input-flex-box">
+        <label for="altura"> Altura (m)</label>
+        <div class="input-m">
+            <input type="number">
+        </div>
+    </div>
+
+    <button class="button"> Calcular</button>
+
+    <div class="resultado">
+        <div id="resultado-imc">
+            <span id="calcimc"></span>   
+            <span>Seu imc é</span>
+        </div>
+
+    </div>
+
+
+</form>
+</section>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
